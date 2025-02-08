@@ -3,6 +3,7 @@ import crdmom from '../../assets/cardamom.jpg';
 import clove from '../../assets/cloves.jpg';
 import peper from '../../assets/peper.jpg';
 import './products.css';
+import HowToOrder from '../HowToOrder/HowToOrder';
 
 const Products = () => (
   <section className='products section__padding'id='products'>
@@ -16,7 +17,7 @@ const Products = () => (
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Ratione quis libero neque vero quisquam illo tenetur nulla! Praesentium, 
         unde explicabo aut repellat quam inventore aspernatur, itaque.</p>
-        <button type='button' className='custom__button' >Order</button>
+       
     </div>
     <div className='cloves'>
       <img src={clove} alt=''/>
@@ -24,7 +25,7 @@ const Products = () => (
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Ratione quis libero neque vero quisquam illo tenetur nulla! Praesentium, 
         unde explicabo aut repellat quam inventore aspernatur, itaque.</p>
-        <button type='button'className='custom__button'>Order</button>
+       
     </div>
     <div className='peper'>
       <img src={peper} alt=''/>
@@ -32,9 +33,10 @@ const Products = () => (
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Ratione quis libero neque vero quisquam illo tenetur nulla! Praesentium, 
         unde explicabo aut repellat quam inventore aspernatur, itaque.</p>
-        <button type='button'className='custom__button' >Order</button>
+       
     </div>
     </div>
+    <HowToOrder/>
     </section>
   
 );

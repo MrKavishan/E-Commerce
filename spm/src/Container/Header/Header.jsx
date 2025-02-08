@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <>
-      <div className='header header__wrapper section__padding'>
+      <div className='header header__wrapper section__padding ' id='home'>
         <div className='header-content'>
           <SubHeading title="Chase The New Flavour" />
           <h1 className='header-section-h1'>

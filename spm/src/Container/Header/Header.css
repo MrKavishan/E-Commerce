@@ -5,6 +5,7 @@
     width: 100%;
     padding: 0 20px;
     background-color: var(--color-black);
+    min-height: 90vh;
   }
   
   .header-content {

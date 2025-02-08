@@ -1,0 +1,55 @@
+.how-to-order {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: var(--color-black);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .how-to-order h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:var(--color-green);
+  }
+  
+  .how-to-order p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .order-methods {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .method {
+    background: #ffffff14;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .method:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .method svg {
+    margin-bottom: 15px;
+  }
+  
+  .method h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--color-green);
+  }
+  
+  .method p {
+    font-size: 1rem;
+    color: #fff;
+  }
