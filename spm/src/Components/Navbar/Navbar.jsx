@@ -18,6 +18,7 @@ const [toggleMenu, setToggleMenu] = React.useState(false)
       <li className='links'><a href='#home'>Home</a></li>
       <li className='links'><a href='#products'>Products</a></li>
       <li className='links'><a href='#about'>About</a></li>
+      <li className='links'><a href='#services'>Services</a></li>
       <li className='links'><a href='#contact'>Contact</a></li>
 
     </ul>
