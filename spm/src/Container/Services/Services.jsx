@@ -11,28 +11,28 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      icon: <FaTruck size={50} color="#ffdb1e" />,
+      icon: <FaTruck size={50} color="var(--color-green)" />,
       title: "Home Delivery",
       description:
         "We deliver your favorite spices right to your doorstep. Enjoy hassle-free shopping!",
     },
     {
       id: 2,
-      icon: <FaGift size={50} color="#ff7f50" />,
+      icon: <FaGift size={50} color="var(--color-green)" />,
       title: "Gift Packs",
       description:
         "Our gift packs include cardamom, cloves, and pepper, perfect for gifting to relatives or special guests.",
     },
     {
       id: 3,
-      icon: <FaUserFriends size={50} color="#25d366" />,
+      icon: <FaUserFriends size={50} color="var(--color-green)" />,
       title: "Special Occasions",
       description:
         "Make your celebrations memorable with our premium spice collections.",
     },
     {
       id: 4,
-      icon: <FaShoppingCart size={50} color="#3b82f6" />,
+      icon: <FaShoppingCart size={50} color="var(--color-green)" />,
       title: "Online Ordering",
       description:
         "Order your favorite spices online with just a few clicks. Easy and convenient!",

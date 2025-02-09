@@ -22,7 +22,7 @@ const HowToOrder = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          <FaPhone size={50} color="#ffdb1e" />
+          <FaPhone size={50} color="var(--color-green)" />
           <h3>Call Us</h3>
           <p>Give us a call at <strong>+1234567890</strong> to place your order.</p>
         </motion.div>
@@ -33,7 +33,7 @@ const HowToOrder = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          <FaWhatsapp size={50} color="#25d366" />
+          <FaWhatsapp size={50} color="var(--color-green)" />
           <h3>WhatsApp Us</h3>
           <p>Send us a message on WhatsApp at <strong>+1234567890</strong>.</p>
         </motion.div>
@@ -44,7 +44,7 @@ const HowToOrder = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          <FaStore size={50} color="#ff7f50" />
+          <FaStore size={50} color="var(--color-green)" />
           <h3>Visit Our Shop</h3>
           <p>Come visit us at our shop located at <strong>123 Main Street</strong>.</p>
         </motion.div>
@@ -54,7 +54,7 @@ const HowToOrder = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          <FaEnvelope size={50} color="#007bff" /> 
+          <FaEnvelope size={50} color="var(--color-green)" /> 
           <h3>Email Us</h3>
           <p>Send us an email at <strong>spicemountain@gmail.com</strong> to place your order.</p>
         </motion.div>
