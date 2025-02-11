@@ -34,23 +34,22 @@ const [toggleMenu, setToggleMenu] = React.useState(false)
       </a>
     </div>
 
-     <div className='navsmallscreen'>
-      <GiHamburgerMenu color="#fff" fontSize={27} onClick={() =>setToggleMenu(true)}/>
-        
-        {toggleMenu &&(<div className='navsmallscreen_overlay flex_center slide-bottom'>
-         <MdOutlineMenu fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)}/>
-         <ul className='navLinks-navsmallscreen'>
-          <li className='links'><a href='#home'>Home</a></li>
-          <li className='links'><a href='#about'>About</a></li>
-          <li className='links'><a href='#products'>Products</a></li>
-          <li className='links'><a href='#awards'>Awards</a></li>
-          <li className='links'><a href='#contact'>Contact</a></li>
-        </ul>
-        </div>
-      )}
-        
-     
-     </div>
+    <div className='navsmallscreen'>
+  <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+
+  {toggleMenu && (
+    <div className='navsmallscreen_overlay flex_center slide-bottom'>
+      <MdOutlineMenu fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)} />
+      <ul className='navLinks-navsmallscreen'>
+        <li className='links'><a href='#home' onClick={() => setToggleMenu(false)}>Home</a></li>
+        <li className='links'><a href='#products' onClick={() => setToggleMenu(false)}>Products</a></li>
+        <li className='links'><a href='#about' onClick={() => setToggleMenu(false)}>About</a></li>
+        <li className='links'><a href='#services' onClick={() => setToggleMenu(false)}>Services</a></li>
+        <li className='links'><a href='#contact' onClick={() => setToggleMenu(false)}>Contact</a></li>
+      </ul>
+    </div>
+  )}
+</div>
   </nav>
   )
 }
