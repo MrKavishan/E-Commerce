@@ -3,16 +3,20 @@
     padding: 50px 20px;
     background-color: var(--color-black);
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    
   }
   
   .how-to-order h1 {
-    font-size: 2.5rem;
+    text-align: center;
+    font-size: 50px;
     margin-bottom: 20px;
+    margin-top: 3rem;
     color:var(--color-green);
+
   }
   
   .how-to-order p {
+    font-family: var(--font-alt);
     font-size: 1.2rem;
     margin-bottom: 40px;
     color: #fff;

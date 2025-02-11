@@ -12,17 +12,18 @@
   padding: 1rem;
 }
 
-h1 {
+.contactHeader h1 {
   text-align: center;
-  font-family: var(--font-base);
-  color: var(--color-green);
-  font-size: 50px;
-  font-weight: bolder;
+      font-size: 50px;
+      margin-bottom: 20px;
+      margin-top: 3rem;
+      color:var(--color-green);
+  
 }
 
 .contact p {
   margin: 10px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:var(--font-alt);
   text-align: center;
   color: aliceblue;
 }

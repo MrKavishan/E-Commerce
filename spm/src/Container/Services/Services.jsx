@@ -47,7 +47,7 @@ const Services = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="services" id="services"
+      className="services " id="services"
     >
       <h1>Our Services</h1>
       <p>We are committed to providing exceptional service to our customers.</p>

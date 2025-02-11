@@ -17,7 +17,7 @@
     text-align: center;
 }
 .about p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:var(--font-alt);
 }
 .history{
     width: 100%;
@@ -26,10 +26,9 @@
     text-align: center;
 }
 .history p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:var(--font-alt);
 }
 .about-section h1{
-    font-family: var(--font-base);
     font-size: 50px;
     color: var(--color-green);
     margin-bottom: 20px;
