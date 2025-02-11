@@ -25,13 +25,15 @@ const Footer = () => {
           <div className="footer-contact">
             <h3>Contact Us</h3>
             <ul>
-              <li>123 Spice Street</li>
-              <li>Flavor City, FC 12345</li>
-              <li>Tel: (123) 456-7890</li>
-              <li>Email: info@spicemountain.com</li>
+              <li>No 1234,</li>
+              <li>Dharmapala Street, Hakmana Road, Matara.</li>
+              <li>Tel: 041-2264252</li>
+              <li>Email: spicemountain@gmail.com</li>
             </ul>
           </div>
-
+          
+            
+           
           <div className="footer-social">
             <h3>Follow Us</h3>
             <div className="social-icons">
